@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+.nav-link{
+    color: black;
+    font-weight: 200;
+}
+.carousel-item img{
+     max-height:100vh;
+     min-height:100vh;
+     width: 100%;
+}
+
+.carousel-caption h2{
+   font-size: 60px;
+   font-weight: 700;
+}
+.moment-section{
+    margin-top: 100px;
+}
+.row{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+.client-say{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.client-say .card{
+   text-align: center;
+   box-shadow: 0px 0px 15px gray;
+   
+}
+.tost-screen{
+   display: flex;
+   justify-content: end;
+   margin-top: -100px;
+}
+.toast{
+    border-left: 5px solid blue;
+    background-color: white;
+}
+.card{
+    border-radius: 10px;
+}
+#hot-card{
+    box-shadow:0px 0px 20px blue ;
+}
+
+
+
+
+
+
+@media screen and (max-width:662px) {
+    .carousel-item img{
+        max-height:50vh;
+        min-height:50vh;
+        width: 100%;
+   }
+}
